@@ -13,6 +13,7 @@ filesets:
       - lowrisc:tlul:headers
       - lowrisc:ip:lc_ctrl_pkg
       - lowrisc:ip:otp_ctrl_pkg
+      - lowrisc:virtual_ip:otp_ctrl_macro_pkg
       - lowrisc:prim:mubi
 
     files:
