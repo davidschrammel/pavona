@@ -118,6 +118,7 @@ mapping:
   "lowrisc:systems:ast_pkg": "lowrisc:systems:top_egret_ast_pkg"
   "lowrisc:virtual_constants:lc_ctrl_token_pkg": "lowrisc:egret_constants:testing_lc_ctrl_token_pkg"
   "lowrisc:virtual_ip:otp_ctrl_macro_pkg": "lowrisc:egret_ip:otp_ctrl_macro_pkg"
+  "lowrisc:virtual_ip:flash_phy_macro_pkg": "lowrisc:egret_ip:flash_phy_macro_pkg"
   "lowrisc:virtual_constants:rnd_cnst_pkg": "lowrisc:egret_constants:testing_rnd_cnst_pkg"
 
 parameters:
