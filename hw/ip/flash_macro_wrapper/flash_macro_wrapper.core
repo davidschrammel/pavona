@@ -45,6 +45,11 @@ filesets:
       # common waivers
       - lowrisc:lint:common
 
+parameters:
+  SYNTHESIS:
+    datatype: bool
+    paramtype: vlogdefine
+
 targets:
   default: &default_target
     filesets:
@@ -52,6 +57,7 @@ targets:
       - tool_ascentlint  ? (files_ascentlint_waiver)
       - tool_veriblelint ? (files_veriblelint_waiver)
       - files_rtl
+    toplevel: flash_macro_wrapper
 
   lint:
     <<: *default_target
